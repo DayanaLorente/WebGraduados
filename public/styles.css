@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    background: rgb(63, 204, 50);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 99%;
+    padding: 15px;
+
+}
+.formulario{
+    background-color: rgba(100, 100, 100, 0.822);
+    margin-top: 100px;
+    padding: 3px;
+    border-radius: 50%;
+    top: -50;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid rgba(12, 12, 12, 0.342);
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 35%;
+    color: white;
+    font-size: 20px;
+    background:  #ff0000;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover{
+    background: rgba(255, 0, 0, 0.575);
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: rgba(238, 248, 238, 0.911);
+    font-weight: 600;
+}
+.link:hover{
+     color: rgba(17, 233, 17, 0.911);
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 600px;
+        margin-top: 50px;
+        border-radius: 2%;
+    }
+}
+
+.linkrecuperar{
+    text-decoration: none;
+      color: rgba(238, 248, 238, 0.911);
+    font-weight: 600;
+}
+

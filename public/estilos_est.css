@@ -1,0 +1,119 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+body{
+    font-family: sans-serif;
+    background: #dbdbdb;
+    margin: 0;
+    overflow-y: auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    position: sticky;
+    height: 75px;
+    background-color: #eeeeee;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    margin-left: 40px;
+    height: 80px;
+    width: 285px;
+}
+
+a button{
+    color: white;
+    background-color: rgb(18, 11, 122);
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 40px;
+    border-color: none;
+    transition: .2s;
+}
+a button:hover{
+    background-color: rgb(17, 150, 150);
+    width: 115px;
+    height: 55px;
+    transition: .2s;
+}
+
+div .cuerpo{
+    font-family: sans-serif;
+    display:flex;
+}
+.cuerpo h1{
+    padding-top: 0px;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu{
+    display: flex;
+    padding-top: 40px;
+    gap: 35px;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu button{
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    border-color: #dbdbdb;
+    box-shadow: 4px 4px 4px 0px;
+    transition: .2s;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: rgb(207, 161, 32);
+    width: 260px;
+    height: 190px;
+    transition: .2s;
+}
+footer{
+    background-color: #232325;
+    padding-top: 12px;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    text-align: center;
+    margin-top: auto;
+}
+
+.logo2 img{
+    align-content: center;
+    height:60px;
+    width: 190px;
+}
+
+.navv a{
+    text-decoration: none;
+    color: rgb(231, 228, 228);
+    display:contents;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    cursor: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
